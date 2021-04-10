@@ -1,0 +1,121 @@
+body{
+  background-image: url(images/wallpaper.jpg);
+  background-position:center;
+  background-attachment:fixed;
+}
+/*general navigation rules*/
+nav{
+	float: left;
+	text-align: center
+	width: 90px;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+a{
+	text-decoration: none;
+	color: #757c88;
+}
+
+li {
+	list-style-image:url("images/blue-house.ico");
+}
+
+/*changes links*/
+	a:link {
+	color: #757c88;
+	text-decoration: underline;
+	}
+
+	a:hover {
+	  color: #536895;
+	  text-decoration: none;
+	}
+	a:visited {
+		color: #536895;
+		text-decoration: none;
+	}
+	
+main {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	
+}
+/*div id*/
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	
+}
+h1 {
+	margin: 0;
+	padding: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	color:#63C5DA;
+	font-family:Arial;
+	font-size:xx-large;
+	text-shadow: 2px 1px #757C88;
+}
+
+h2 {
+	/* margin: 0;
+	padding: 10px;
+	padding-bottom: 5px;*/
+	text-align: center; 
+	color:#63C5DA;
+	font-family:Arial;
+	font-size:x-large;
+	text-shadow: 2px 1px #757C88;
+}
+h3 {
+	color:#63C5DA;
+	font-family:Arial;
+	font-size:large;
+}
+img {
+	/*image positioning on images page*/
+	position: relative;
+	left: 95px;
+	display:inline-block;
+	border-width:3px;
+	border-style:double;
+	border-color:#330000;
+	margin:15px;
+	padding:3px; 
+	border-radius:15px;
+	
+}
+
+#icn {
+	position: relative;
+	left: 875px; 
+	padding: 3px;
+	float:left;
+	display:inline;
+}
+
+p {
+	font-family: Arial;
+	
+}
+
+footer {
+	text-align: center;
+	font-style: italic;
+	/*background color*/
+	clear: both;
+}
+
+form {
+	
+}
+
+
+
+
+
+ 
