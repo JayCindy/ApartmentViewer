@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<link rel="stylesheet" href="pagestyles.css">
+<link rel="icon" href="images/logo16.ico" type="image/x-icon" >
+<style>
+
+</style>
+<title>ApartmentViewer</title>
+<meta charset ="utf-8">
+</head>
+<body>
+<div id = "wrapper">
+<header><h1>ApartmentViewer</h1></header>
+<nav >
+<a href="index.html"><b>About Us</b></a> &nbsp; 
+<a href="favorites.html"><b> Favorites</b></a> &nbsp; 
+<a href="houses.html"><b> Houses </b></a> &nbsp; 
+<a href="search.html"><b> Search </b> </a>
+</nav>
+<main>
+<br> <!-- this is here for alignment purposes--DO NOT REMOVE  -->
+<h2>Search Form</h2>
+
+<form><!--start of the form -->
+<!--Home -->
+<label for="Type of Home">Choose a home:</label>
+<select name="home" id="home">
+  <option value="Townhome">Townhome</option>
+  <option value="Apartment">Apartment</option>
+  <option value="House">House</option>
+  <option value="Duplex">Duplex</option>
+</select><br>
+<!--Bedroom -->
+<label for="Number of Bedrooms">Choose a number of beds:</label>
+<select name="bed" id="bed">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3+</option>
+</select><br>
+<!--Bathroom -->
+<label for="Number of bathrooms">Choose a number of bathrooms:</label>
+<select name="bath" id="bath">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3+</option>
+</select><br>
+<!--Pet -->
+<label for="Pet friendly">Do you have pets?:</label>
+<select name="pet" id="pet">
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+ </select><br>
+<!--Rent -->
+<label for="rent range">What is your rent range?:</label>
+<select name="rent" id="rent" >
+  <option value="under 300">Under $300</option>
+  <option value="300+">$300-$500</option>
+  <option value="500+">$500-$700</option>
+  <option value="700+">$700-$900</option>
+  <option value="900+">$900 and above</option>
+
+ </select><br>
+ <!--Location -->
+<label for="location">What is your location?:</label>
+  <input type="text" id="location" name="location"><br>
+ </select>
+ 
+  <br><br>
+  <!--Submit -->
+  <input type="submit" value="Submit">
+</form><!--end of the form -->
+</main>
+<footer><small>Send your questions and comments to <a href="mailto:apartmentviewer21@gmail.com"> apartmentviewer21@gmail.com</a></small><br>
+<small>Copyright &copy; 2021 ApartmentViewer</small></footer>
+</div>
+</body>
+</html>
